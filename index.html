@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<head>
+    <title>X vs O</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" href="XO.png"/>
+</head> 
+
+<body>
+<script type="text/javascript" src="script.js"></script>
+
+    <div id='choosing'>
+        <h1>or</h1>
+        <button id="x" onclick="xFunction()">X</button>
+        <button id="o" onclick="oFunction()">O</button>
+    </div>
+    <button id="refresh"onclick="rePlay()" >rePlay</button>
+    <p id="msg"></p>
+    <div id="square">
+       <table >
+            <tr>
+                    <td class='td' id="a" onclick="clickFunctionA()"></td>
+                    <td class='td' id="b" onclick="clickFunctionB()"></td>
+                    <td class='td' id="c" onclick="clickFunctionC()"></td>
+            </tr>
+            <tr>
+                    <td class='td' id="d" onclick="clickFunctionD()"></td>
+                    <td class='td' id="e" onclick="clickFunctionE()"></td>
+                    <td class='td' id="f" onclick="clickFunctionF()"></td>
+            </tr>
+            <tr>
+                    <td class='td' id="g" onclick="clickFunctionG()"></td>
+                    <td class='td' id="h" onclick="clickFunctionH()"></td>
+                    <td class='td' id="i" onclick="clickFunctionI()"></td>
+            </tr>
+       </table>
+    </div>
+    <div id="deActivate"></div>
+</body>

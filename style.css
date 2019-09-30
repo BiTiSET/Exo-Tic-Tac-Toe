@@ -1,0 +1,114 @@
+body {
+    text-align: center;
+    background-color: rgb(48, 48, 48);
+    font-family: sans-serif;
+}
+#msg {
+    position: absolute;
+    color: aliceblue;
+    font-size: 25px;
+    top: 50px;
+    left: 500px ;
+    border-radius: 10px; 
+    padding: 2px 15px 2px 15px;
+    font-size: 20px;
+    font-family: monospace;
+}
+#refresh {
+    display: none;
+    position: absolute;
+    color: aliceblue;
+    font-size: 25px;
+    top: 390px;
+    left: 590px ;
+    border-radius: 15px; 
+    padding: 10px;
+    background-color: black;
+    cursor: pointer;
+}
+#choosing {
+    width: 180px;
+    height: 70px;
+    display: block;
+    position: absolute;
+    top: 260px;
+    left: 520px;
+    border-radius: 125px;
+    background-color: rgb(0, 0, 0 , 0.4);
+}
+ #o {
+    height: 60px;
+    width: 60px;
+    top: 5px;
+    position: absolute;
+    right: 5px;
+    border-radius: 30px;
+    background-color: white;
+    color: green;
+    font-size: 30px;
+    cursor: pointer;
+}
+#o:hover {
+    background-color: green;
+    color: white;
+}
+#x:hover {
+    background-color: rgb(255, 0, 0);
+    color: white;
+}
+h1 {
+    top: 15px;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    color: white;
+    margin: 0;
+}
+#x {
+    height: 60px;
+    width: 60px;
+    top: 5px;
+    position: absolute;
+    left: 5px;
+    border-radius: 30px;
+    background-color: white;
+    color: red;
+    font-size: 30px;
+    cursor: pointer;
+}
+#square {
+    display: none;
+    position: absolute;
+    left: 500px;
+    top: 108px;
+}
+table {
+    width: 270px;
+    height: 270px;
+    font-size: 40px;
+    text-align: center;
+    background-color: rgb(255, 255, 255,0.9);
+}
+#deActivate {
+    display: none;
+    position: absolute;
+    left: 500px;
+    width: 270px;
+    height: 270px;
+    top: 108px;
+}
+table, td {
+    border: 5px solid rgba(0, 0, 0, 0.8);
+    border-collapse: collapse;
+  }
+  tr {
+    cursor: pointer;
+  }
+  td:hover {
+    background-color: rgb(0, 173, 72);
+    color: white;
+  }
+  td {
+    width: 70px;
+    height: 70px; 
+    }
